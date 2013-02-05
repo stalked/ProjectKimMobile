@@ -1,5 +1,6 @@
 package com.cs3283.projectkim;
 
+import Network.GameClient;
 import android.content.Context;
 import android.content.Intent;
 import android.view.View;

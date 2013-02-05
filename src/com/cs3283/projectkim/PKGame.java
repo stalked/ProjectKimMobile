@@ -1,5 +1,6 @@
 package com.cs3283.projectkim;
 
+import Network.GameClient;
 import android.app.Activity;
 import android.graphics.Point;
 import android.os.Bundle;
