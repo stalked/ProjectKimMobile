@@ -9,6 +9,7 @@ import android.app.Dialog;
 
 public class MainActivity extends Activity
 {
+	@Override
 	public void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
@@ -29,11 +30,13 @@ public class MainActivity extends Activity
 		}, PKEngine.GAME_THREAD_DELAY);
 	}
 	
+	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
 		return true;
 	}
 	
+	@Override
 	protected Dialog onCreateDialog(int id)
 	{
 		return null;
